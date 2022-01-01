@@ -1,0 +1,8 @@
+{
+  "welcome": "Hello and welcome to Hammad's Loans!",
+  "loan": "What is the loan amount you are looking to get financed?",
+  "wrongNumber": "Your number has to be a positive non-zero number.",
+  "duration": "How many years are you thinking of financing?",
+  "interestRate": "What percentage interest rate are you looking to get?",
+  "monthlyPayment": "Your monthly payment will be"
+}
