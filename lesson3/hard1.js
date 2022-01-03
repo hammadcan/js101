@@ -62,20 +62,20 @@ array converted into a string as well */
  those other variables allowing the console.log to only point to
  the global variable instead */
 
-function messWithVars(arg1, arg2, arg3) {
-  arg1.splice(0, 1, "two");
-  arg2.splice(0, 1, "three");
-  arg3.splice(0, 1, "one");
-}
-
-let one = ["one"];
-let two = ["two"];
-let three = ["three"];
-
-messWithVars(one, two, three);
-
-console.log(`one is: ${one}`);
-console.log(`two is: ${two}`);
-console.log(`three is: ${three}`);
+// function messWithVars(arg1, arg2, arg3) {
+//   arg1.splice(0, 1, "two");
+//   arg2.splice(0, 1, "three");
+//   arg3.splice(0, 1, "one");
+// }
+//
+// let one = ["one"];
+// let two = ["two"];
+// let three = ["three"];
+//
+// messWithVars(one, two, three);
+//
+// console.log(`one is: ${one}`);
+// console.log(`two is: ${two}`);
+// console.log(`three is: ${three}`);
 /* The variables themselves are invoked from the function as they are spliced
 * and this leads to an actual change for the variables. */
