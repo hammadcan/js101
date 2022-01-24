@@ -27,18 +27,22 @@
 // let lowestAge = Object.values(ages);
 // console.log(Math.min(...lowestAge));
 
-let statement = "The Flintstones Rock";
-let splitStatement = statement.split("").filter(char => char !== " ");
-let frequency = {};
+// let statement = "The Flintstones Rock";
+// let splitStatement = statement.split("").filter(char => char !== " ");
+// let frequency = {};
+//
+// splitStatement.forEach(char => {
+//   if (Object.keys(frequency).includes(char)) {
+//     frequency[char] += 1;
+//   } else {
+//     frequency[char] = 1;
+//   }
+// });
+//
+// console.log(frequency);
 
-splitStatement.forEach(char => {
-  if (Object.keys(frequency).includes(char)) {
-    frequency[char] += 1;
-  } else {
-    frequency[char] = 1;
-  }
+let result = ['a', 'b', 'c'].forEach(function(item) {
+  console.log(item);
 });
 
-console.log(frequency);
-
-
+result; // []
