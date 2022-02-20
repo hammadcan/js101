@@ -4,4 +4,4 @@ function triangle(size) {
   }
 }
 
-triangle(5);
+triangle(3);
