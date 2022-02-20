@@ -82,8 +82,8 @@ while (true) {
 
   prompt("Hello and welcome to Hammad's 21 Game!");
   dealCards(deck, playerHand);
-  dealCards(deck, playerHand);
   dealCards(deck, dealerHand);
+  dealCards(deck, playerHand);
   dealCards(deck, dealerHand);
   prompt(`The dealer has a ${currentHand(dealerHand)[0]} and unknown.`);
   prompt(`You have a ${currentHand(playerHand)}`);
